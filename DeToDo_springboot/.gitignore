@@ -33,4 +33,4 @@ build/
 .vscode/
 
 # Ignore Spring Boot config file
-src/main/resources/application.properties
+DeToDo_springboot/src/main/resources/application.properties
