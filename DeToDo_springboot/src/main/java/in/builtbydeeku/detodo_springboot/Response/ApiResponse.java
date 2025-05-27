@@ -1,9 +1,12 @@
 package in.builtbydeeku.detodo_springboot.Response;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.http.ResponseEntity;
 
 @Data
-public class ApiResponse {
+@AllArgsConstructor
+public class ApiResponse{
     private Object data;
     private String message;
 }
