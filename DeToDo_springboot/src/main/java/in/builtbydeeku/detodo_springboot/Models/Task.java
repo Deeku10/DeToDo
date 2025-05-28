@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
 
 @Entity
 @Data
@@ -18,7 +17,7 @@ public class Task {
     private int periodId;
     private String title;
     private String note;
-    @OneToOne(cascade = jakarta.persistence.CascadeType.ALL,orphanRemoval = true)
+    @OneToOne(cascade = CascadeType.ALL,orphanRemoval = true)
     @JoinColumn(name = "progressId")
     private Progress progress;
 }
