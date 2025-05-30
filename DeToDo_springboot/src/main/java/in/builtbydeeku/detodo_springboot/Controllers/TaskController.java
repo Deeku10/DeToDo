@@ -34,7 +34,7 @@ public class TaskController {
         }
     }
 
-    @PostMapping("/delete/{taskId}")
+    @DeleteMapping("/delete/{taskId}")
     public ResponseEntity<ApiResponse> deleteTask(@PathVariable Long taskId) {
         try{
             taskService.deleteTaskById(taskId);
