@@ -2,10 +2,9 @@ package in.builtbydeeku.detodo_springboot.Controllers;
 
 import in.builtbydeeku.detodo_springboot.Models.Task;
 import in.builtbydeeku.detodo_springboot.Response.ApiResponse;
-import in.builtbydeeku.detodo_springboot.Services.TaskService;
+import in.builtbydeeku.detodo_springboot.Services.TaskService.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

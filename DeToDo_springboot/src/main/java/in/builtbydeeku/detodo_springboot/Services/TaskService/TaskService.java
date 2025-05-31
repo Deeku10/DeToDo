@@ -1,4 +1,4 @@
-package in.builtbydeeku.detodo_springboot.Services;
+package in.builtbydeeku.detodo_springboot.Services.TaskService;
 
 import in.builtbydeeku.detodo_springboot.Exceptions.ObjectNotFoundException;
 import in.builtbydeeku.detodo_springboot.Models.Progress;
@@ -6,7 +6,6 @@ import in.builtbydeeku.detodo_springboot.Models.Task;
 import in.builtbydeeku.detodo_springboot.Repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 import java.util.Optional;

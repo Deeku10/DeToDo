@@ -1,4 +1,4 @@
-package in.builtbydeeku.detodo_springboot.Services;
+package in.builtbydeeku.detodo_springboot.Services.TaskService;
 
 import in.builtbydeeku.detodo_springboot.Models.Task;
 
